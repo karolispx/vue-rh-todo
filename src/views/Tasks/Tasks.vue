@@ -224,7 +224,7 @@
                                 this.getTasks(1);
 
                                 this.alert.display = false;
-                            }, 5000 );
+                            }, 3000 );
                         }, error => {
                             this.$store.dispatch('loader/page', 'off');
                             window.scrollTo(0, 0);
@@ -257,7 +257,7 @@
                                 this.getTasks(1);
 
                                 this.alert.display = false;
-                            }, 5000 );
+                            }, 3000 );
                         }, error => {
                             this.$store.dispatch('loader/page', 'off');
                             window.scrollTo(0, 0);
@@ -290,7 +290,7 @@
                                 this.getTasks(1);
 
                                 this.alert.display = false;
-                            }, 5000 );
+                            }, 3000 );
                         }, error => {
                             this.$store.dispatch('loader/page', 'off');
                             window.scrollTo(0, 0);
@@ -330,7 +330,7 @@
                             this.getTasks(1);
 
                             this.alert.display = false;
-                        }, 5000 );
+                        }, 3000 );
                     }, error => {
                         this.updateTaskForm.formLoading = false;
                         this.$store.dispatch('loader/page', 'off');
@@ -392,7 +392,7 @@
                             this.getTasks(1);
 
                             this.alert.display = false;
-                        }, 5000 );
+                        }, 3000 );
                     }, error => {
                         this.$store.dispatch('loader/page', 'off');
                         window.scrollTo(0, 0);
