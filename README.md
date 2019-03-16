@@ -39,4 +39,6 @@
 
 ## Deployment To AWS S3 Bucket:
 
-This article provides everything that's needed to setup VueJS application on AWS S3 bucket: https://developer.okta.com/blog/2018/07/03/deploy-vue-app-aws
+This article provides everything that's needed to setup VueJS application on AWS S3 bucket: https://developer.okta.com/blog/2018/07/03/deploy-vue-app-aws, once that's done:
+1. Run `npm run build`
+2. Run `npm run deploy`
